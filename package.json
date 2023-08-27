@@ -2,9 +2,9 @@
   "name": "web-tts",
   "version": "0.2.3",
   "description": "Convert webpages to audio speech",
-  "main": "dist/index.js",
+  "main": "index.js",
   "bin": {
-    "web-tts": "./dist/index.js"
+    "web-tts": "index.js"
   },
   "scripts": {
     "build": "tsc && chmod a+x dist/index.js"
