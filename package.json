@@ -1,21 +1,17 @@
 {
-  "name": "aws-sdk-v3-polly-example",
+  "name": "azure-tts",
   "version": "1.0.0",
   "main": "index.ts",
-  "repository": "git@github.com/awsdocs/aws-doc-sdk-examples/tree/master/javascriptv3/example_code/polly.git",
-  "author": "Brian Murray <brmur@amazon.com>, Alex Forsyth <alex-git@amazon.com>",
+  "repository": "",
+  "author": "",
   "license": "Apache 2.0",
   "scripts": {
-    "run": "webpack src/polly.js --mode development --libraryTarget commonjs2 --target web --devtool false -o src/dist/main.js"
+    "run": "node index.ts"
   },
-  "dependencies": {
-    "@aws-sdk/client-cognito-identity": "^3.32.0",
-    "@aws-sdk/client-polly": "^3.32.0",
-    "@aws-sdk/credential-provider-cognito-identity": "^3.32.0",
-    "@aws-sdk/polly-request-presigner": "^3.32.0"
-  },
+
   "devDependencies": {
     "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "microsoft-cognitiveservices-speech-sdk":"*"
   }
 }
